@@ -14,6 +14,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-🔭Spring Boot + Thymeleaf + MySQL + Redis + RabbitMQ + BootStrap + Font-awesome + Solr + Spring Security + Druid 
-
-- 这是自己着手准备写的一个项目，会采用快速迭代的方式，先大致完成一个基础模块，然后不断的继续迭代！
+🔭 Welcome to Kapcb's Homepage!
