@@ -1,4 +1,4 @@
-package com.kapcb.ccc.decrypt;
+package com.kapcb.ccc.encryption;
 
 /**
  * <a>Title: ${NAME} </a>
