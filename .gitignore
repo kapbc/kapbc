@@ -1,0 +1,66 @@
+/mysoft-demo.iml
+/.idea/
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.iml
+.idea/
+.target/
+/target/
+.settings/
+.classpath
+.project
+**/dist/
+/ci/config/mysql/data/
+/ci/packages/platform/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.log
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/mysoft-container/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+/basic-service.iml
+/biz-common.iml
+
+# 元数据签出设计时文件
+*.metadata.design.config
+# 元数据临时文件
+
+/_metadata/EntityLog
+/_metadata/PublishLog.metadata.config
+/_metadata/MetadataStatus.metadata.config
+
+### tempfile ###
+/ci/packages/configcenter
+/ci/packages/platform
+/ci/packages/.gitignore
+/temp/
+ci/tools/PackageClient/packages
+
+# 日志
+ci/tools/DbSync/log/
+ci/tools/PackageClient/logs/
+/logs
+

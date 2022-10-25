@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/kapbc.iml" filepath="$PROJECT_DIR$/.idea/kapbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kapcb-admin/kapcb-admin.iml" filepath="$PROJECT_DIR$/kapcb-admin/kapcb-admin.iml" />
     </modules>
   </component>
 </project>
