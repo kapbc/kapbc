@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/kapbc-sdk-decrypt/pom.xml" />
         <option value="$PROJECT_DIR$/kapbc-sdk-encryption/pom.xml" />
+        <option value="$PROJECT_DIR$/kapbc-sdk-dependencies/pom.xml" />
       </list>
     </option>
   </component>
