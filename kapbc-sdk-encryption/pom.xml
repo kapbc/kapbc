@@ -7,11 +7,13 @@
     <groupId>com.kapcb.ccc.encryption</groupId>
     <artifactId>kapbc-sdk-encryption</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <parent>
         <groupId>com.kapcb.ccc.dependencies</groupId>
         <artifactId>kapbc-sdk-dependencies</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath/>
     </parent>
 
     <properties>
