@@ -1,5 +1,9 @@
 package com.kapcb.ccc.encryption;
 
+import org.springframework.boot.Banner;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+
 /**
  * <a>Title: ${NAME} </a>
  * <a>Author: kapcb <a>
@@ -10,8 +14,14 @@ package com.kapcb.ccc.encryption;
  * @date ${DATE} ${TIME}
  * @since 1.0
  */
+@SpringBootApplication
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new SpringApplicationBuilder()
+                .sources(Main.class)
+                .bannerMode(Banner.Mode.OFF)
+                .run(args);
     }
+
 }
