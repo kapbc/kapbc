@@ -8,7 +8,7 @@
     <artifactId>kapbc-sdk-dependencies</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>kapbc sdk all project version control</name>
+    <name>kapbc-sdk-dependencies</name>
 
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
