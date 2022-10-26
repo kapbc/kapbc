@@ -77,7 +77,7 @@
         <taobao.text.version>0.0.2</taobao.text.version>
         <lombok.version>1.18.20</lombok.version>
         <hutool-all.version>5.6.2</hutool-all.version>
-        <fastjson.version>1.2.79</fastjson.version>
+        <fastjson2.version>2.0.16</fastjson2.version>
         <orika-core.version>1.5.4</orika-core.version>
         <xxl-job-core.version>2.3.0</xxl-job-core.version>
         <vavr.version>1.0.0-alpha-3</vavr.version>
@@ -338,9 +338,9 @@
             </dependency>
             <!-- fastjson -->
             <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>fastjson</artifactId>
-                <version>${fastjson.version}</version>
+                <groupId>com.alibaba.fastjson2</groupId>
+                <artifactId>fastjson2</artifactId>
+                <version>${fastjson2.version}</version>
             </dependency>
             <!-- orika core -->
             <dependency>
@@ -517,8 +517,8 @@
             <artifactId>hutool-all</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
         </dependency>
         <dependency>
             <groupId>commons-collections</groupId>
@@ -529,28 +529,12 @@
             <artifactId>commons-lang3</artifactId>
         </dependency>
         <dependency>
-            <groupId>ma.glasnost.orika</groupId>
-            <artifactId>orika-core</artifactId>
-        </dependency>
-        <dependency>
             <groupId>io.vavr</groupId>
             <artifactId>vavr</artifactId>
         </dependency>
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
         </dependency>
     </dependencies>
 
