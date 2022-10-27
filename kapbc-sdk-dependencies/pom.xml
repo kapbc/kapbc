@@ -4,17 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.kapcb.ccc.dependencies</groupId>
+    <groupId>com.kapcb.ccc</groupId>
     <artifactId>kapbc-sdk-dependencies</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>kapbc-sdk-dependencies</name>
 
     <parent>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <groupId>org.springframework.boot</groupId>
-        <version>2.3.12.RELEASE</version>
-        <relativePath/>
+        <groupId>com.kapcb.ccc</groupId>
+        <artifactId>kapbc</artifactId>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <!-- version control start -->
